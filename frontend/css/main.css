@@ -1,0 +1,150 @@
+main {
+  position: relative;
+}
+
+.items-list {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  margin: 20px 10px 5px;
+  border-bottom: 1px solid #f4f4f4;
+  position: relative;
+}
+
+.items-list img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.items-list__img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(../assets/list-img1.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin: 0 20px 15px;
+}
+
+.info-img2 {
+  background: url(../assets/list-img2.jpg) no-repeat;
+  background-size: cover;
+}
+.info-img3 {
+  background: url(../assets/list-img3.jpg) no-repeat;
+  background-size: cover;
+}
+.info-img4 {
+  background: url(../assets/list-img4.jpg) no-repeat;
+  background-size: cover;
+}
+.info-img5 {
+  background: url(../assets/list-img5.jpg) no-repeat;
+  background-size: cover;
+}
+
+.items-list__info {
+  width: 300px;
+}
+
+.items-list__info-title {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.items-list__info-meta {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #bcbcbc;
+}
+
+.items-list__info-price {
+  font-weight: bold;
+}
+
+.items-list__info-sm {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items-list__info-sm img {
+  width: 18px;
+  padding: 1px 3px;
+  opacity: 0.5;
+}
+
+.btn-write {
+  position: fixed;
+  text-align: center;
+  width: 90px;
+  bottom: 120px;
+  right: 20px;
+  padding: 15px 10px;
+  border: none;
+  background-color: var(--button-primary);
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.btn-write:hover {
+  background-color: var(--button-hover);
+}
+
+#write-from {
+  padding: 50px;
+  background-color: #f88142;
+  font-weight: 600;
+}
+
+.write-list {
+  height: 100px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.write-list-img {
+  height: 80px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.write-title {
+  width: 200px;
+  height: 100px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.write-input {
+  width: 290px;
+  height: 60px;
+  border: none;
+}
+
+.btn-submit {
+  width: 400px;
+  height: 50px;
+  margin: 32px 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00a05b;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: #037846;
+}
