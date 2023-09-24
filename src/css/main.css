@@ -12,19 +12,19 @@ main {
 }
 
 .items-list img {
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 130px;
   border-radius: 15px;
 }
 
 .items-list__img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 130px;
   background: url(../assets/list-img1.jpg) no-repeat;
   background-size: cover;
   border-radius: 15px;
-  margin: 0 20px 15px;
+  margin: 0 30px 15px 20px;
 }
 
 .info-img2 {
@@ -49,19 +49,20 @@ main {
 }
 
 .items-list__info-title {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 22px;
 }
 
 .items-list__info-meta {
-  margin: 10px 0;
-  font-size: 12px;
+  margin: 15px 0;
+  font-size: 16px;
   color: #bcbcbc;
 }
 
 .items-list__info-price {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .items-list__info-sm {
