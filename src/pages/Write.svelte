@@ -1,0 +1,93 @@
+<!-- 헤더바 -->
+<header>
+    <!-- 인포바 -->
+    <div class="info-bar">
+      <div class="info-bar__time">20:55</div>
+      <div class="info-bar__icons">
+        <img src="assets/chart-bar.svg" alt="chart-bar" />
+        <img src="assets/wifi.svg" alt="wifi" />
+        <img src="assets/batter.svg" alt="battery" />
+      </div>
+    </div>
+    <!-- 메뉴바 -->
+    <div class="menu-bar">
+      <div class="menu-bar__location">
+        <div>역삼1동</div>
+        <div class="menu-bar__location--icon">
+          <img src="assets/arrow.svg" alt="arrow" />
+        </div>
+      </div>
+      <div class="menu-bar__icons">
+        <img src="assets/search.svg" alt="search" />
+        <img src="assets/menu.svg" alt="menu" />
+        <img src="assets/bell.svg" alt="alert" />
+      </div>
+    </div>
+  </header>
+
+  <!-- 글쓰기 영역 -->
+  <form id="write-from">
+    <div class="write-list-img">
+      <label for="image" class="write-title">이미지</label>
+      <input type="file" id="image" name="image" class="write-input" />
+    </div>
+    <div class="write-list">
+      <label for="title" class="write-title">제 목</label>
+      <input type="text" id="title" name="title" class="write-input" />
+    </div>
+    <div class="write-list">
+      <label for="price" class="write-title">가 격</label>
+      <input type="number" id="price" name="price" class="write-input" />
+    </div>
+    <div class="write-list">
+      <label for="description" class="write-title">설 명</label>
+      <input
+        type="text"
+        id="description"
+        name="description"
+        class="write-input"
+      />
+    </div>
+    <div class="write-list">
+      <label for="place" class="write-title">장 소</label>
+      <input type="text" id="place" name="place" class="write-input" />
+    </div>
+    <div>
+      <button type="submit" class="btn-submit">글쓰기 완료</button>
+    </div>
+  </form>
+  <!-- footer -->
+  <footer>
+    <div class="footer-block">
+      <div class="footer-icons">
+        <div class="footer-icons__img">
+          <img src="assets/home.svg" alt="home" />
+        </div>
+        <div class="footer-icons__desc">홈</div>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icons__img">
+          <img src="assets/paper.svg" alt="paper" />
+        </div>
+        <div class="footer-icons__desc">동네생활</div>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icons__img">
+          <img src="assets/map.svg" alt="map" />
+        </div>
+        <div class="footer-icons__desc">내 근처</div>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icons__img">
+          <img src="assets/chat.svg" alt="chat" />
+        </div>
+        <div class="footer-icons__desc">채팅</div>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icons__img">
+          <img src="assets/user.svg" alt="user" />
+        </div>
+        <div class="footer-icons__desc">나의 당근</div>
+      </div>
+    </div>
+  </footer>
